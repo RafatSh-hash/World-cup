@@ -443,6 +443,7 @@ h3 {
         border-radius: 10px;
         gap: 20px;
         padding-top: 15px;
+        padding-left: 5px;
     }
 
     .link-div>a {
@@ -522,3 +523,5 @@ h3 {
 
 
 }
+
+/* Media Query Tab End */
