@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation
+    </title>
+</head>
+<style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    @keyframes slide {
+        0% {
+            left: 0px;
+        }
+
+        100% {
+            left: 80%;
+        }
+    }
+
+    .ball>img {
+        height: 150px;
+        width: 150px;
+        animation: slide 5s ease-in 1s infinite alternate;
+        animation-play-state: running;
+        position: relative;
+        border-radius: 50px;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="ball">
+        <img class="anime" src="images/football.gif" alt="">
+    </div>
+
+
+</body>
+
+</html>
