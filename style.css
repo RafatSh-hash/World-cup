@@ -74,7 +74,7 @@ body {
     text-align: left;
     width: 50%;
     color: white;
-    height: fit-content;
+    height: 200px;
     padding-bottom: 30px;
 
     margin-top: 50px;
@@ -86,10 +86,21 @@ body {
     font-size: 1.3em;
 }
 
-.header-text-paragraph {
+.header-text-paragraph>p {
     font-size: 1em;
+    height: 100px;
+
     margin-top: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    /* white-space: nowrap; */
 }
+
+
+
+
+
 
 .btn1 {
     font-size: 1.5em;
